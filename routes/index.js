@@ -12,6 +12,8 @@ router.post('/talk', function(req, res, next) {
     res.json({});
   });
 });
+
+
 router.post('/hello', function(req, res, next) {
   console.log(req.body)
   res.json({"respTxt": "This end point has been assecced"});
